@@ -1,0 +1,11 @@
+<app-header  ></app-header><!--(featureSelected)="onNavigate($event)"-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <!-- <app-receipes *ngIf="loadedFeature==='receipe'"></app-receipes>
+           <app-shopping-list *ngIf="loadedFeature!=='receipe'"></app-shopping-list>-->
+           <router-outlet></router-outlet> 
+        </div>
+    </div>
+ <!-- <p appBetterHighlight>style me  </p>-->
+</div>
